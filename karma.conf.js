@@ -50,7 +50,7 @@ function getPlugins() {
     plugins = plugins.filter(not(adapter163));
   } else if (is('^16.4.0-0')) {
     plugins = plugins.filter(not(adapter16));
-  } else if (is('^17.0.0-rc.0')) {
+  } else if (is('^17.0.0')) {
     plugins = plugins.filter(not(adapter17));
   }
 

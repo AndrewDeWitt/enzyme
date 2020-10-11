@@ -11,4 +11,4 @@ export function is(range) {
 }
 
 export const REACT16 = is('16');
-export const REACT17 = is('^17.0.0-rc.0');
+export const REACT17 = is('17');
